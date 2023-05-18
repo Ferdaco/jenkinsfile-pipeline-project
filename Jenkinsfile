@@ -3,9 +3,8 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo "Power in Yourself"
-                sh 'echo using shell within Jenkinsfile'
-                echo 'not using shell in the Jenkinsfile'
+                echo 'Power in Yourself'
+                sh 'echo Integrating Jenkins Pipeline with GitHub Webhook using Jenkinsfile'
             }
         }
     }
